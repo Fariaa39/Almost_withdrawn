@@ -7,8 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane prefHeight="509.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.almost_withdrawn_pitak.ConsumerComplaintsController
-">
+<AnchorPane prefHeight="509.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.almost_withdrawn_pitak.ConsumerComplaintsController">
    <children>
       <Label layoutX="48.0" layoutY="49.0" />
       <Button layoutX="493.0" layoutY="19.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="84.0" text="Sign Out" />

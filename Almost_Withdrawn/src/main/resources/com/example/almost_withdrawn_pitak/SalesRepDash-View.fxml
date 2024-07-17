@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.diamondworld_group43.SalesRepDashViewController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.almost_withdrawn_pitak.SalesRepDashViewController">
    <children>
       <Button alignment="TOP_LEFT" layoutX="14.0" layoutY="83.0" mnemonicParsing="false" onAction="#addNewItemOnAction" prefHeight="28.0" prefWidth="148.0" text="Add new item">
          <font>
