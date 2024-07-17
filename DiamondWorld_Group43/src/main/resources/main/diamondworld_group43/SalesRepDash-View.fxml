@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.shape.Line?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="main.diamondworld_group43.SalesRepDashViewController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <ComboBox fx:id="financialStatementComboBox" layoutX="14.0" layoutY="77.0" onAction="#financialStatementOptionOnAction" prefHeight="25.0" prefWidth="161.0" promptText="Financial statements" />
+        <Button alignment="TOP_LEFT" layoutX="14.0" layoutY="110.0" mnemonicParsing="false" onAction="#checkInventoryOnAction" prefHeight="25.0" prefWidth="161.0" text="Check inventory" />
+        <Button alignment="TOP_LEFT" layoutX="14.0" layoutY="142.0" mnemonicParsing="false" onAction="#employeeExpenditureOnAction" prefHeight="25.0" prefWidth="161.0" text="Employee expenditure" />
+        <Button alignment="TOP_LEFT" layoutX="14.0" layoutY="175.0" mnemonicParsing="false" onAction="#taxRecordOnAction" prefHeight="25.0" prefWidth="161.0" text="View tax records" />
+        <Button alignment="TOP_LEFT" layoutX="14.0" layoutY="209.0" mnemonicParsing="false" onAction="#supplierBillOnAction" prefHeight="25.0" prefWidth="161.0" text="View supplier bills" />
+        <Button alignment="TOP_LEFT" layoutX="14.0" layoutY="240.0" mnemonicParsing="false" onAction="#exchangeBillOnAction" prefHeight="25.0" prefWidth="161.0" text="View exchange bills" />
+        <Line endX="475.0" layoutX="115.0" layoutY="68.0" startX="-100.0" />
+        <Line endX="-192.0" endY="246.0" layoutX="377.0" layoutY="143.0" startX="-192.0" startY="-74.5" />
+        <Label layoutX="186.0" layoutY="30.0" prefHeight="38.0" prefWidth="403.0" text="Sales representative dashboard">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <Button layoutX="531.0" layoutY="18.0" mnemonicParsing="false" onAction="#signOutButtonOnAction" prefHeight="44.0" prefWidth="55.0" text="Sign out" textAlignment="CENTER" wrapText="true" />
+    </children>
+
+</AnchorPane>
