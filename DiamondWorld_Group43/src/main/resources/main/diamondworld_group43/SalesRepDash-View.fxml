@@ -1,32 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-
-<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Line?>
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="main.diamondworld_group43.SalesRepDashViewController"
-            prefHeight="400.0" prefWidth="600.0">
-    <children>
-        <ComboBox fx:id="financialStatementComboBox" layoutX="14.0" layoutY="77.0" onAction="#financialStatementOptionOnAction" prefHeight="25.0" prefWidth="161.0" promptText="Financial statements" />
-        <Button alignment="TOP_LEFT" layoutX="14.0" layoutY="110.0" mnemonicParsing="false" onAction="#checkInventoryOnAction" prefHeight="25.0" prefWidth="161.0" text="Check inventory" />
-        <Button alignment="TOP_LEFT" layoutX="14.0" layoutY="142.0" mnemonicParsing="false" onAction="#employeeExpenditureOnAction" prefHeight="25.0" prefWidth="161.0" text="Employee expenditure" />
-        <Button alignment="TOP_LEFT" layoutX="14.0" layoutY="175.0" mnemonicParsing="false" onAction="#taxRecordOnAction" prefHeight="25.0" prefWidth="161.0" text="View tax records" />
-        <Button alignment="TOP_LEFT" layoutX="14.0" layoutY="209.0" mnemonicParsing="false" onAction="#supplierBillOnAction" prefHeight="25.0" prefWidth="161.0" text="View supplier bills" />
-        <Button alignment="TOP_LEFT" layoutX="14.0" layoutY="240.0" mnemonicParsing="false" onAction="#exchangeBillOnAction" prefHeight="25.0" prefWidth="161.0" text="View exchange bills" />
-        <Line endX="475.0" layoutX="115.0" layoutY="68.0" startX="-100.0" />
-        <Line endX="-192.0" endY="246.0" layoutX="377.0" layoutY="143.0" startX="-192.0" startY="-74.5" />
-        <Label layoutX="186.0" layoutY="30.0" prefHeight="38.0" prefWidth="403.0" text="Sales representative dashboard">
-            <font>
-                <Font name="System Bold" size="24.0" />
-            </font>
-        </Label>
-        <Button layoutX="531.0" layoutY="18.0" mnemonicParsing="false" onAction="#signOutButtonOnAction" prefHeight="44.0" prefWidth="55.0" text="Sign out" textAlignment="CENTER" wrapText="true" />
-    </children>
+<?import javafx.scene.text.Font?>
 
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.diamondworld_group43.SalesRepDashViewController">
+   <children>
+      <Button alignment="TOP_LEFT" layoutX="14.0" layoutY="83.0" mnemonicParsing="false" onAction="#addNewItemOnAction" prefHeight="28.0" prefWidth="148.0" text="Add new item">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button alignment="TOP_LEFT" layoutX="14.0" layoutY="121.0" mnemonicParsing="false" onAction="#checkInventoryOnAction" prefHeight="28.0" prefWidth="148.0" text="Check inventory">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button alignment="TOP_LEFT" layoutX="14.0" layoutY="160.0" mnemonicParsing="false" onAction="#purchaseDetailsOnAction" prefHeight="28.0" prefWidth="148.0" text="View purchase details">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button alignment="TOP_LEFT" layoutX="14.0" layoutY="200.0" mnemonicParsing="false" onAction="#createSalesReportOnAction" prefHeight="28.0" prefWidth="148.0" text="Create sales report">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button alignment="TOP_LEFT" layoutX="14.0" layoutY="238.0" mnemonicParsing="false" onAction="#currentOffersOnAction" prefHeight="28.0" prefWidth="148.0" text="View current offers">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button alignment="TOP_LEFT" layoutX="14.0" layoutY="272.0" mnemonicParsing="false" onAction="#customOrderOnAction" prefHeight="28.0" prefWidth="148.0" text="Create custom order">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button alignment="TOP_LEFT" layoutX="14.0" layoutY="308.0" mnemonicParsing="false" onAction="#paymentMethodOnAction" prefHeight="28.0" prefWidth="148.0" text="Payment method">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button alignment="TOP_LEFT" layoutX="14.0" layoutY="347.0" mnemonicParsing="false" onAction="#loyaltyProgramOnAction" prefHeight="28.0" prefWidth="148.0" text="View loyalty program">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Line endX="468.0" layoutX="115.0" layoutY="68.0" startX="-100.0" strokeWidth="3.0" />
+      <Line endX="53.0" endY="305.0" layoutX="125.0" layoutY="78.0" startX="53.0" startY="-8.5" strokeWidth="3.0" />
+      <Label layoutX="180.0" layoutY="23.0" prefHeight="47.0" prefWidth="362.0" text="Sales representative dashboard">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Button layoutX="542.0" layoutY="14.0" mnemonicParsing="false" onAction="#signOutOnAction" prefHeight="47.0" prefWidth="49.0" text="Sign out" textAlignment="CENTER" wrapText="true" />
+   </children>
 </AnchorPane>

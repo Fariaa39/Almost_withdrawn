@@ -1,27 +1,19 @@
 package main.diamondworld_group43;
 
 import javafx.event.ActionEvent;
-import javafx.scene.control.ComboBox;
 
 public class SalesRepDashViewController
 {
-    @javafx.fxml.FXML
-    private ComboBox financialStatementComboBox;
-
     @javafx.fxml.FXML
     public void initialize() {
     }
 
     @javafx.fxml.FXML
-    public void supplierBillOnAction(ActionEvent actionEvent) {
+    public void addNewItemOnAction(ActionEvent actionEvent) {
     }
 
     @javafx.fxml.FXML
-    public void employeeExpenditureOnAction(ActionEvent actionEvent) {
-    }
-
-    @javafx.fxml.FXML
-    public void financialStatementOptionOnAction(ActionEvent actionEvent) {
+    public void customOrderOnAction(ActionEvent actionEvent) {
     }
 
     @javafx.fxml.FXML
@@ -29,14 +21,26 @@ public class SalesRepDashViewController
     }
 
     @javafx.fxml.FXML
-    public void signOutButtonOnAction(ActionEvent actionEvent) {
+    public void createSalesReportOnAction(ActionEvent actionEvent) {
     }
 
     @javafx.fxml.FXML
-    public void exchangeBillOnAction(ActionEvent actionEvent) {
+    public void purchaseDetailsOnAction(ActionEvent actionEvent) {
     }
 
     @javafx.fxml.FXML
-    public void taxRecordOnAction(ActionEvent actionEvent) {
+    public void paymentMethodOnAction(ActionEvent actionEvent) {
+    }
+
+    @javafx.fxml.FXML
+    public void currentOffersOnAction(ActionEvent actionEvent) {
+    }
+
+    @javafx.fxml.FXML
+    public void signOutOnAction(ActionEvent actionEvent) {
+    }
+
+    @javafx.fxml.FXML
+    public void loyaltyProgramOnAction(ActionEvent actionEvent) {
     }
 }
