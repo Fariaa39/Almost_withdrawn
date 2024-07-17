@@ -58,7 +58,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>main.diamond_world_group43/main.diamond_world_group43.HelloApplication</mainClass>
+              <mainClass>main.diamond_world_group43/main.diamond_world_group43.MainApplication</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>
