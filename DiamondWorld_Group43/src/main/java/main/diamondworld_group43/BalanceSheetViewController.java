@@ -42,4 +42,12 @@ public class BalanceSheetViewController
     @javafx.fxml.FXML
     public void backDashOnAction(ActionEvent actionEvent) {
     }
+
+    @javafx.fxml.FXML
+    public void editBalanceSheetOnAction(ActionEvent actionEvent) {
+    }
+
+    @javafx.fxml.FXML
+    public void saveBalanceSheetOnAction(ActionEvent actionEvent) {
+    }
 }

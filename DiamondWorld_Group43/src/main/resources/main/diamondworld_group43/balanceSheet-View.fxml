@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="465.0" prefWidth="736.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.diamondworld_group43.BalanceSheetViewController">
+<AnchorPane prefHeight="499.0" prefWidth="736.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.diamondworld_group43.BalanceSheetViewController">
    <children>
       <Label layoutX="336.0" layoutY="26.0" prefHeight="54.0" prefWidth="230.0" text="Balance Sheet">
          <font>
@@ -52,5 +52,15 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
+      <Button layoutX="508.0" layoutY="450.0" mnemonicParsing="false" onAction="#editBalanceSheetOnAction" prefHeight="28.0" prefWidth="102.0" text="Edit">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="621.0" layoutY="450.0" mnemonicParsing="false" onAction="#saveBalanceSheetOnAction" prefHeight="28.0" prefWidth="102.0" text="Save">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
